@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/container/multi_array.cpp
+iostream
+-
+boost/assign.hpp
+-
+boost/multi_array.hpp
+-
+

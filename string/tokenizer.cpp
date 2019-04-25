@@ -1,7 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <cstring>
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/algorithm/string.hpp>
@@ -114,10 +114,15 @@ void case5()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
 }
 

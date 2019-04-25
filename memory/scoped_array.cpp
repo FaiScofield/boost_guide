@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/smart_ptr.hpp>
@@ -14,7 +14,8 @@ void case1()
     scoped_array<int> sa(arr);
 
     fill_n(&sa[0],100, 5);
-    sa[10] = sa[20] + sa[30];
+    sa[10] = sa[20] + 2 * sa[30];
+    std::cout << sa[10] << std::endl;
 }
 
 //////////////////////////////////////////
@@ -35,6 +36,8 @@ void case2()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
 }

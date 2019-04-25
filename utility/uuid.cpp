@@ -1,6 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
+#include <assert.h>
 using namespace std;
 
 #include <boost/uuid/uuid.hpp>
@@ -167,7 +168,7 @@ void case6()
 #if BOOST_VERSION <= 106400
 #include <boost/uuid/sha1.hpp>
 #else
-#include <boost/uuid/detail/sha1.hpp>
+//#include <boost/uuid/detail/sha1.hpp>
 #endif
 using namespace boost::uuids::detail;
 
@@ -193,11 +194,18 @@ void case7()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
+    std::cout << "\n********** Case 7 **********\n";
     case7();
 }

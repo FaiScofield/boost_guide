@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/memory/shared_ptr2.cpp
+iostream
+-
+set
+-
+boost/core/ignore_unused.hpp
+-
+boost/smart_ptr.hpp
+-
+boost/smart_ptr/owner_less.hpp
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/utility/assign.cpp
+iostream
+-
+boost/assign.hpp
+-
+forward_list
+-
+cstdlib
+-
+stack
+-
+queue
+-
+

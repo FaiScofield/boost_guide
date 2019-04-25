@@ -1,15 +1,24 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/assign.hpp>
 #include <boost/circular_buffer.hpp>
 using namespace boost;
 
+template<typename T>
+void print(T& cb)
+{
+    for (auto& x: cb)
+    {   cout << x << ", ";   }
+    cout << endl;
+}
+
 //////////////////////////////////////////
 void case1()
 {
+    cout << "\n********** Case 1 **********\n";
     circular_buffer<int> cb(5);
     assert(cb.empty());
 
@@ -19,14 +28,14 @@ void case1()
     cb.insert(cb.begin(), 3);
 
 
-    for (auto pos = cb.begin(); pos != cb.end();++pos)
-    {   cout << *pos << ",";    }
-    cout << endl;
+    print(cb);
 
     cb.pop_front();
     assert(cb.size() == 2);
-    cb.push_back();
+    cb.push_back(); // 在后端添加0末元素
     assert(cb[0] = 2);
+
+    print(cb);
 
     //using namespace boost::assign;
     circular_buffer<int> cb1 = (assign::list_of(1),2,3);
@@ -39,17 +48,10 @@ void case1()
 }
 
 //////////////////////////////////////////
-template<typename T>
-void print(T& cb)
-{
-    for (auto& x: cb)
-    {   cout << x << ",";   }
-    cout << endl;
-}
-
 void case2()
 {
-    circular_buffer<int> cb = (assign::list_of(1),2,3);
+    cout << "\n********** Case 2 **********\n";
+    circular_buffer<int> cb = (assign::list_of(1),2,3); // 容器大小为3
     print(cb);
 
     cb.push_back(4);
@@ -66,16 +68,17 @@ void case2()
 //////////////////////////////////////////
 void case3()
 {
+    cout << "\n********** Case 3 **********\n";
     circular_buffer<int> cb =(assign::list_of(1),2,3,4,5);
 
     assert(cb.full());
     print(cb);
 
-    int *p = cb.linearize();
+    int *p = cb.linearize(); // 将缓冲区线性化成一个连续的普通数组
     assert(p[0]== 1 && p[3] == 4);
     assert(cb.is_linearized());
 
-    cb.rotate(cb.begin()+ 2);
+    cb.rotate(cb.begin()+ 2); // 从指定位置旋转整个缓冲区
     print(cb);
 
 }
@@ -83,16 +86,19 @@ void case3()
 //////////////////////////////////////////
 void case4()
 {
+    cout << "\n********** Case 4 **********\n";
     using namespace boost::assign;
 
-    circular_buffer_space_optimized<int> cb( 10);
+    circular_buffer_space_optimized<int> cb(10); // 在需要时才分配空间，元素减少时会自动释放内存
     push_back(cb)(1),2,3,4;
 
     assert(cb.size() == 4);
     assert(cb.capacity() == 10);
 
-    cb.resize(100, 10);
+    cb.resize(30, 10);
     assert(cb.size() == cb.capacity());
+
+    print(cb);
 
 }
 

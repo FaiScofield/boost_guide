@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/utility/optional.cpp
+cmath
+-
+type_traits
+-
+iostream
+-
+assert.h
+-
+vector
+-
+boost/optional.hpp
+-
+

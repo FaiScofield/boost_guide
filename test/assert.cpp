@@ -1,7 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <cstring>
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 //#define BOOST_DISABLE_ASSERTS
@@ -45,8 +45,8 @@ void case1()
 #include <boost/format.hpp>
 namespace boost {
 void    assertion_failed(char const*, char const*, char const*, long) {}
-void assertion_failed_msg(char const * expr, char const * msg, 
-                        char const * function, 
+void assertion_failed_msg(char const * expr, char const * msg,
+                        char const * function,
                         char const * file, long line)
 {
     boost::format fmt("Assertion failed!\nExpression: %s\n"

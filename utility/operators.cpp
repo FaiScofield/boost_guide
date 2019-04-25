@@ -1,7 +1,8 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <utility>
-#include <std.hpp>
+#include <iostream>
+#include <assert.h>
 using namespace std;
 
 #include <boost/operators.hpp>
@@ -20,12 +21,13 @@ public:
 void case1()
 {
     demo_class a(10), b(20);
+
+    // 使用std::rel_ops命名空间里提供的四个模板比较操作符!=、>、<=、>=
+    // 只要为类定义==和<操作符即可
     using namespace std::rel_ops;
 
-    assert(a<b) ;
-    assert(b>=a) ;
-
-
+    assert(a<b);
+    assert(b>=a);
 }
 
 //////////////////////////////////////////
@@ -205,11 +207,18 @@ void case7()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
+    std::cout << "\n********** Case 7 **********\n";
     case7();
 }

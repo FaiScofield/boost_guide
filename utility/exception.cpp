@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/exception/all.hpp>
@@ -92,7 +92,7 @@ void case4()
 {
     try
     {
-        throw enable_error_info(my_err()) 
+        throw enable_error_info(my_err())
             << errinfo_errno(101)
             << errinfo_api_function("fopen");
     }
@@ -117,9 +117,13 @@ void case4()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
 }
 

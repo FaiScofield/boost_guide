@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/memory/scoped_ptr.cpp
+iostream
+-
+boost/smart_ptr.hpp
+-
+boost/smart_ptr/make_unique.hpp
+-
+

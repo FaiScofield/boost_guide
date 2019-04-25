@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/lexical_cast.hpp>
@@ -16,7 +16,8 @@ void case1()
     double e    = lexical_cast<double>("2.71828");
     double r    = lexical_cast<double>("1.414,xyz", 5);
 
-    cout << x << y << pai << e << r << endl;
+    cout << x << ", " << y << ", " << pai << ", "
+         << e << ", " << r << endl;
 
     string str = lexical_cast<string>(456);
     cout << str << endl;
@@ -131,7 +132,7 @@ long std_lexical_cast<long>(const std::string& s)
 
 void case5()
 {
-    assert(std_lexical_cast<int>(" 10 ") == 10);
+    assert(std_lexical_cast<int> (" 10 ") == 10);
     assert(std_lexical_cast<long>("100L") == 100L);
 }
 
@@ -140,10 +141,15 @@ void case5()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
 }
 

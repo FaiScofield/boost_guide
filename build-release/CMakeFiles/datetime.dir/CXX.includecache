@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/date_time/datetime.cpp
+iostream
+-
+boost/date_time/gregorian/gregorian.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+boost/date_time/local_time/local_time.hpp
+-
+

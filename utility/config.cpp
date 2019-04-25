@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/core/ignore_unused.hpp>
@@ -38,5 +38,6 @@ struct static_int
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
 }

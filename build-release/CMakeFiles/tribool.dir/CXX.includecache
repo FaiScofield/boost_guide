@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/utility/tribool.cpp
+iostream
+-
+assert.h
+-
+boost/logic/tribool.hpp
+-
+boost/logic/tribool_io.hpp
+-
+boost/optional.hpp
+-
+

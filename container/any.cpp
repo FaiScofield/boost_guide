@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/exception/all.hpp>
@@ -17,22 +17,19 @@ void case1()
     int n = any_cast<int>(a);
     assert(n == 10);
 
-    any_cast<int&>(a) = 20;
+    any_cast<int&>(a) = 20; // 获得值的引用，被用于左值
     assert(any_cast<int>(a) == 20);;
 
-    try
-    {
+    try {
         any a;
         any_cast<int>(a);
-    }
-    catch(boost::exception&)
-    {   
+    } catch(boost::exception&) {
         cout << current_exception_diagnostic_information();
     }
 
     any a1, a2(2.0);
-    assert(any_cast<int*>(&a1) == nullptr);
-    assert(any_cast<string*>(&a2) == nullptr);
+    assert(any_cast<int*>(&a1) == nullptr);     // 转换空any对象
+    assert(any_cast<string*>(&a2) == nullptr);  // 转换错误的类型
 
 }
 
@@ -48,7 +45,7 @@ void case2()
     cout << any_cast<const char*>(&a) << endl;
     cout << any_cast<const char*>(a) << endl;
 
-    string *ps = new string("abc");     //不好的使用方式
+    string *ps = new string("abc");     // 不好的使用方式，应该用智能指针
     a = ps;
     if (!a.empty() && any_cast<string*>(a))
     {       cout << *any_cast<string*>(a)<< endl;   }
@@ -106,7 +103,7 @@ template<typename T > struct any_print
     void operator()(any &a)
     try
     {
-        cout << *any_cast<T>(&a) << endl;   
+        cout << *any_cast<T>(&a) << endl;
     }
     catch(bad_any_cast &)
     {
@@ -121,7 +118,7 @@ struct any_print<boost::shared_ptr<T> >
     void operator()(any &a)
     try
     {
-        cout << **any_cast<boost::shared_ptr<T> >(&a) << endl; 
+        cout << **any_cast<boost::shared_ptr<T> >(&a) << endl;
     }
     catch(bad_any_cast &)
     {
@@ -131,11 +128,13 @@ struct any_print<boost::shared_ptr<T> >
 
 void case4()
 {
+    /// 临时对象用法
+    /// any_print<int>()产生了一个临时的 any_print 结构对象
+    /// 后一个 (a) 表示的是这个临时对象调用它的括号操作符并传入参数a
     any a;
 
     a = 10;
     any_print<int>()(a);
-
     auto ps = boost::make_shared<string>("metroid");
     a = ps;
     any_print< boost::shared_ptr<string> >()(a);
@@ -152,7 +151,7 @@ void case5()
 
     using namespace boost::assign;
     vector<any> v2 = list_of<any>(10)(0.618)(string("char"));
-    cout << v2.size();
+    cout << v2.size() << endl;
 
 }
 
@@ -160,9 +159,14 @@ void case5()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
 }

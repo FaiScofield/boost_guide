@@ -2,7 +2,10 @@
 // Author: Chrono Law
 #include <cmath>
 #include <type_traits>
-#include <std.hpp>
+#include <iostream>
+#include <assert.h>
+#include <vector>   `
+
 using namespace std;
 
 #define BOOST_DISABLE_ASSERTS
@@ -32,7 +35,7 @@ void case2()
     optional<string> ops("test");
     cout << *ops << endl;
 
-    ops.emplace("monado", 3);
+    ops.emplace("monado", 3);   // 就地创建一个字符串，没有拷贝代价
     assert(*ops == "mon");
 
     vector<int> v(10);
@@ -86,8 +89,12 @@ void case4()
 //////////////////////////////////////////
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
 }

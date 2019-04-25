@@ -1,8 +1,9 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 #include <exception>
-
+#include <map>
+#include <vector>
 #include <boost/smart_ptr.hpp>
 using namespace boost;
 
@@ -13,11 +14,12 @@ void case1()
     shared_ptr<int> spi(new int);
     assert(spi);
     *spi = 253;
+    std::cout << *spi << std::endl;
 
     shared_ptr<std::string>  sps(new std::string("smart"));
     assert(sps->size() == 5);
 
-    //shared_ptr<int> dont_do_this(new int[10]);
+    //shared_ptr<int> dont_do_this(new int[10]); // 危险！不能正确释放内存！
 }
 
 //////////////////////////////////////////
@@ -28,7 +30,7 @@ void case2()
     std::map<sp_t, int> m;
 
     sp_t sp(new std::string("one"));
-    m[sp] = 111;
+    m[sp] = 111;    // 关联数组用法
 
     shared_ptr<std::exception> sp1(new std::bad_exception());
 
@@ -54,6 +56,8 @@ void case3()
 
     sp.reset();
     assert(!sp);
+
+    assert(sp2.unique());
 }
 
 //////////////////////////////////////////
@@ -82,13 +86,16 @@ void case4()
     shared_ptr<int> p(new int(100));
     shared s1(p), s2(p);
 
-    s1.print();
-    s2.print();
+    s1.print();     // 3次引用
+    s2.print();     // 3次引用
 
     *p = 20;
-    print_func(p);
 
-    s1.print();
+    // 此函数内部拷贝了一个shared_ptr对象，因此引用计数会加1
+    // 但当函数退出时，拷贝自动析构，引用计数又会减1.
+    print_func(p);  // 4次引用
+
+    s1.print();     // 3次引用
 }
 
 //////////////////////////////////////////
@@ -97,7 +104,9 @@ void case5()
 {
     auto sp = make_shared<std::string>("make_shared");
     auto spv = make_shared<std::vector<int> >(10, 2);
-    assert(spv->size() == 10);
+
+//    assert(spv->size() == 10);
+    std::cout << spv->size() << std::endl;
 }
 
 //////////////////////////////////////////
@@ -129,10 +138,16 @@ void case6()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
 }

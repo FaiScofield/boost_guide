@@ -1,6 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 #include <boost/utility/string_ref.hpp>
@@ -227,15 +228,25 @@ void case10()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
+    std::cout << "\n********** Case 7 **********\n";
     case7();
+    std::cout << "\n********** Case 8 **********\n";
     case8();
+    std::cout << "\n********** Case 9 **********\n";
     case9();
+    std::cout << "\n********** Case 10 **********\n";
     case10();
 }
 

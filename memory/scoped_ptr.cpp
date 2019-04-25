@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/smart_ptr.hpp>
@@ -61,11 +61,11 @@ void bad_case()
 {
     scoped_ptr<string> sp(new string("text"));
 
-    //sp++;
-    //scoped_ptr<string> sp2 = sp;
-    //std::prev(sp);
-    //ptr_owned p;
-    //ptr_owned p2(p);
+//    sp++;
+//    scoped_ptr<string> sp2 = sp;
+//    std::prev(sp);
+//    ptr_owned p;
+//    ptr_owned p2(p);
 }
 
 //////////////////////////////////////////
@@ -83,13 +83,19 @@ void case_unique()
     a[0] = 100;
     a[4] = 500;
     //a[5] = 1000;
+
+    for (int i = 0; i < 5; ++i)
+        cout << a[i] << endl;
 }
 
 //////////////////////////////////////////
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case_unique();
 }

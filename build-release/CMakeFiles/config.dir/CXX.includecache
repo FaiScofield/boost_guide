@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/utility/config.cpp
+iostream
+-
+boost/core/ignore_unused.hpp
+-
+boost/version.hpp
+-
+boost/config/suffix.hpp
+-
+boost/config/detail/suffix.hpp
+-
+

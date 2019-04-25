@@ -1,7 +1,8 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <fstream>
-#include <std.hpp>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 #include <boost/progress.hpp>
@@ -40,7 +41,7 @@ void case2()
         ++pd;
         if (pos->empty())
         {
-            cout << "null string # " 
+            cout << "null string # "
                 << (pos - v.begin())<< endl;
         }
     }

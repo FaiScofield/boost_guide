@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/date_time/gregorian/gregorian.hpp>
@@ -173,7 +173,7 @@ void case8()
     credit_card b("B bank", 12);
 
     credit_card tmp = std::max(a, b);
-    cout << "You should use " << tmp.bank_name 
+    cout << "You should use " << tmp.bank_name
         << ", free days = " << tmp.calc_free_days() << endl;
 }
 

@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/assign.hpp>
@@ -9,9 +9,9 @@ using namespace std;
 //////////////////////////////////////////
 void case1()
 {
-    using namespace boost::assign;
+    using namespace boost::assign;  // 很重要，启动assign库的功能
     vector<int> v;
-    v += 1,2,3,4,5, 6*6;
+    v += 1,2,3,4,5, 6*6;            // 用 += 和 , 填入数据
 
     for(auto& x : v)
         cout << x << ",";
@@ -24,8 +24,8 @@ void case1()
         cout << x << ",";
     cout << endl;
 
-    map<int, string> m;
-    m += make_pair(1, "one"),make_pair(2, "two");
+    map<int, string> m; // map容器需要借助make_pair()来生成容器元素
+    m += make_pair(1, "one"), make_pair(2, "two");
 
 }
 
@@ -37,18 +37,33 @@ void case2()
 
     vector<int> v;
     push_back(v)(1)(2)(3)(4)(5);
+    for(auto& x : v)
+        cout << x << ",";
+    cout << endl;
 
     list<string> l;
     push_front(l)("c")("cpp")("lua")("swift");
+    for(auto& x : l)
+        cout << x << ",";
+    cout << endl;
 
     forward_list<string> fl;
-    push_front(l)("matrix")("reload");
+    push_front(fl)("matrix")("reload");
+    for(auto& x : fl)
+        cout << x << ",";
+    cout << endl;
 
     set<double> s;
     insert(s)(3.14)(0.618)(1.732);
+    for(auto& x : s)
+        cout << x << ",";
+    cout << endl;
 
     map<int, string> m;
     insert(m)(1, "one")(2, "two");
+    for(auto& x : m)
+        cout << x.first << "," << x.second << "; ";
+    cout << endl;
 }
 
 //////////////////////////////////////////
@@ -160,7 +175,7 @@ void case6()
     cout << endl;
 
     priority_queue<double> pq = (list_of(1.414), 1.732, 2.236).to_adapter();
-    push(pq),3.414,2.71828;
+    push(pq), 3.414, 2.71828;
     for(;!pq.empty();)
     {
         cout << pq.top() << " " ;
@@ -185,11 +200,18 @@ void case7()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
+    std::cout << "\n********** Case 7 **********\n";
     case7();
 }

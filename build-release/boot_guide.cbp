@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="boot_guide"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuple">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tuple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tuple"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuple/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tuple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tuple/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="property_tree">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/property_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 property_tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="property_tree/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/property_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 property_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/assign" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 assign"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/assign" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 assign/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="variant">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/variant" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 variant"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="variant/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/variant" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 variant/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_ptr1">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_ptr1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_ptr1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_ptr1/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_ptr1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_ptr1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_array">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_array/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrusive_ptr">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/intrusive_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 intrusive_ptr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrusive_ptr/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/intrusive_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 intrusive_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="circular_buffer">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/circular_buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 circular_buffer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="circular_buffer/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/circular_buffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 circular_buffer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weak_ptr">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/weak_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 weak_ptr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weak_ptr/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/weak_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 weak_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 timer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timer/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 timer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="date2">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/date2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 date2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="date2/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/date2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 date2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pool">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/pool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 pool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pool/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/pool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 pool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lexical_cast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/lexical_cast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 lexical_cast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lexical_cast/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/lexical_cast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 lexical_cast/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_ptr2">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_ptr2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_ptr2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_ptr2/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/shared_ptr2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 shared_ptr2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="progress_display">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/progress_display" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 progress_display"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="progress_display/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/progress_display" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 progress_display/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="date1">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/date1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 date1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="date1/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/date1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 date1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datetime">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/datetime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 datetime"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="datetime/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/datetime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 datetime/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_ref">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/string_ref" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 string_ref"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_ref/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/string_ref" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 string_ref/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_array">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/multi_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 multi_array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multi_array/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/multi_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 multi_array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_time">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/posix_time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 posix_time"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="posix_time/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/posix_time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 posix_time/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tribool">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tribool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tribool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tribool/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tribool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tribool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xpressive">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/xpressive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 xpressive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xpressive/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/xpressive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 xpressive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scoped_array">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/scoped_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 scoped_array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scoped_array/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/scoped_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 scoped_array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scoped_ptr">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/scoped_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 scoped_ptr"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scoped_ptr/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/scoped_ptr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 scoped_ptr/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimap">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/bimap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 bimap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bimap/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/bimap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 bimap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="config">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 config"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="config/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 config/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operators">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/operators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 operators"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operators/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/operators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 operators/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exception">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/exception" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 exception"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exception/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/exception" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 exception/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optional">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/optional" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 optional"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optional/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/optional" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 optional/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="progress_timer">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/progress_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 progress_timer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="progress_timer/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/progress_timer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 progress_timer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/utility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 utility"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/utility" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 utility/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_bitset">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/dynamic_bitset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 dynamic_bitset"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_bitset/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/dynamic_bitset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 dynamic_bitset/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unordered">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/unordered" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 unordered"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unordered/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/unordered" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 unordered/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uuid">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/uuid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 uuid"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uuid/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/uuid" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 uuid/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/format" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 format"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/format" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 format/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="any">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/any" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 any"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="any/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/any" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 any/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_algo">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/string_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 string_algo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="string_algo/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/string_algo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 string_algo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tokenizer">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tokenizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tokenizer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tokenizer/fast">
+				<Option output="/home/vance/daydayup_ws/boost_guide/build-release/tokenizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vance/daydayup_ws/boost_guide/build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 tokenizer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vance/daydayup_ws/boost_guide/build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/any.cpp">
+			<Option target="any"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/array.cpp">
+			<Option target="array"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/bimap.cpp">
+			<Option target="bimap"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/circular_buffer.cpp">
+			<Option target="circular_buffer"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/dynamic_bitset.cpp">
+			<Option target="dynamic_bitset"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/multi_array.cpp">
+			<Option target="multi_array"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/property_tree.cpp">
+			<Option target="property_tree"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/tuple.cpp">
+			<Option target="tuple"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/unordered.cpp">
+			<Option target="unordered"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/container/variant.cpp">
+			<Option target="variant"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/date1.cpp">
+			<Option target="date1"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/date2.cpp">
+			<Option target="date2"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/datetime.cpp">
+			<Option target="datetime"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/posix_time.cpp">
+			<Option target="posix_time"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/progress_display.cpp">
+			<Option target="progress_display"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/progress_timer.cpp">
+			<Option target="progress_timer"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/date_time/timer.cpp">
+			<Option target="timer"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/intrusive_ptr.cpp">
+			<Option target="intrusive_ptr"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/pool.cpp">
+			<Option target="pool"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/scoped_array.cpp">
+			<Option target="scoped_array"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/scoped_ptr.cpp">
+			<Option target="scoped_ptr"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/shared_array.cpp">
+			<Option target="shared_array"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/shared_ptr1.cpp">
+			<Option target="shared_ptr1"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/shared_ptr2.cpp">
+			<Option target="shared_ptr2"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/memory/weak_ptr.cpp">
+			<Option target="weak_ptr"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/format.cpp">
+			<Option target="format"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/lexical_cast.cpp">
+			<Option target="lexical_cast"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/string_algo.cpp">
+			<Option target="string_algo"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/string_ref.cpp">
+			<Option target="string_ref"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/tokenizer.cpp">
+			<Option target="tokenizer"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/string/xpressive.cpp">
+			<Option target="xpressive"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/assign.cpp">
+			<Option target="assign"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/config.cpp">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/exception.cpp">
+			<Option target="exception"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/operators.cpp">
+			<Option target="operators"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/optional.cpp">
+			<Option target="optional"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/tribool.cpp">
+			<Option target="tribool"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/utility.cpp">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/utility/uuid.cpp">
+			<Option target="uuid"/>
+		</Unit>
+		<Unit filename="/home/vance/daydayup_ws/boost_guide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

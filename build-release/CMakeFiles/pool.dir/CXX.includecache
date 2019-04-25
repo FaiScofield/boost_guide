@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/memory/pool.cpp
+iostream
+-
+vector
+-
+boost/core/ignore_unused.hpp
+-
+boost/pool/pool.hpp
+-
+boost/pool/object_pool.hpp
+-
+boost/pool/singleton_pool.hpp
+-
+boost/pool/pool_alloc.hpp
+-
+

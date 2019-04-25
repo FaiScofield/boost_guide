@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 //using namespace std;
 
 #include <boost/smart_ptr.hpp>
@@ -70,16 +70,16 @@ void case3()
     auto p1 = make_shared<node>();
     auto p2 = make_shared<node>();
 
-    p1->next = p2;
+    p1->next = p2;  // 形成列表循环
     p2->next = p1;
 
-    assert(p1.use_count() == 1);
-    assert(p2.use_count() == 1);
+    assert(p1.use_count() == 1);    // 如果next是shared_ptr<node>,这里的计数就是2
+    assert(p2.use_count() == 1);    // 退出作用域时，shared_ptr无法正确析构，会导致内存泄露
 
-    if(!p1->next.expired())
+    if(!p1->next.expired())         // 检查弱引用是否有效
     {
-        auto p3 = p1->next.lock();
-    }
+        auto p3 = p1->next.lock();  // 调用lock()获得强引用
+    }                               // 退出作用域，shared_ptr可以正确析构
 }
 
 //////////////////////////////////////////
@@ -125,8 +125,12 @@ void case4()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
 }

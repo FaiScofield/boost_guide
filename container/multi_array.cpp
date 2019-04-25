@@ -1,6 +1,6 @@
 // Copyright (c) 2015
 // Author: Chrono Law
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/assign.hpp>
@@ -13,25 +13,20 @@ void case1()
     multi_array<int, 3> ma(extents[2][3][4]);
 
     auto shape = ma.shape();
-    for (size_t i = 0; i < ma.num_dimensions(); ++i)
-    {
+    for (size_t i = 0; i < ma.num_dimensions(); ++i) {
         cout << shape[i] << ",";
     }
     cout << endl << ma.num_elements() << endl;
 
     for (int i = 0,  v = 0; i < 2; ++i)
         for (int j = 0; j < 3;++j)
-            for (int k = 0;k < 4;++k)
-            {
+            for (int k = 0;k < 4;++k) {
                 ma[i][j][k] = v++;
             }
 
-    for (int i = 0; i < 2; ++i)
-    {
-        for (int j = 0; j < 3;++j)
-        {
-            for (int k = 0;k < 4;++k)
-            {
+    for (int i = 0; i < 2; ++i) {
+        for (int j = 0; j < 3;++j) {
+            for (int k = 0;k < 4;++k) {
                 cout << ma[i][j][k] << ",";
             }
             cout << endl;
@@ -39,7 +34,7 @@ void case1()
         cout << endl;
     }
 
-    //cout << ma[2][3][4];
+    //cout << ma[2][3][4]; // 越界，最后一个是 ma[1][2][3]
 
     std::array<size_t, 3> idx = {0,1,2};
     ma(idx) = 10;
@@ -94,11 +89,9 @@ void case4()
 
     multi_array_ref<int, 2> mar(arr, extents[3][4]);
 
-    for (size_t i = 0; i < 3; ++i)
-    {
+    for (size_t i = 0; i < 3; ++i) {
         cout << "(";
-        for(size_t j = 0;j < 4;++j)
-        {
+        for(size_t j = 0;j < 4;++j) {
             cout << mar[i][j]++;
             cout << (j!=3?',':' ');
         }
@@ -107,11 +100,9 @@ void case4()
 
     const_multi_array_ref<int, 2> cmar(arr, extents[2][6]);
 
-    for (size_t i = 0; i < 2; ++i)
-    {
+    for (size_t i = 0; i < 2; ++i) {
         cout << "(";
-        for(size_t j = 0;j < 6;++j)
-        {
+        for(size_t j = 0;j < 6;++j) {
             cout << cmar[i][j];
             cout << (j!=5?',':' ');
         }
@@ -126,8 +117,7 @@ void case5()
     //multi_array<int, 3> ma(vector<int>(assign::list_of(2)(2)));
     multi_array<int, 3> ma(vector<int>{2,2,2});
     auto shape = ma.shape();
-    for (size_t i = 0; i < ma.num_dimensions(); ++i)
-    {
+    for (size_t i = 0; i < ma.num_dimensions(); ++i) {
         cout << shape[i] << ",";
     }
 
@@ -165,11 +155,18 @@ void case7()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
+    std::cout << "\n********** Case 5 **********\n";
     case5();
+    std::cout << "\n********** Case 6 **********\n";
     case6();
+    std::cout << "\n********** Case 7 **********\n";
     case7();
 }

@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/datetime.dir/date_time/datetime.cpp.o  -o datetime -lboost_date_time -lboost_container -lboost_regex -lboost_system -lboost_date_time -lboost_container -lboost_regex -lboost_system 

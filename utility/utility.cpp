@@ -1,7 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <bitset>
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/utility.hpp>
@@ -26,11 +26,11 @@ void case1()
 
 double func()
 {
-      cout << BOOST_CURRENT_FUNCTION << endl;
-        return 0.0;
+    cout << BOOST_CURRENT_FUNCTION << endl;
+    return 0.0;
 }
 
-string str = BOOST_CURRENT_FUNCTION;      //错误用法，不能用在函数作用域外
+string str = BOOST_CURRENT_FUNCTION;      // 错误用法，不能用在函数作用域外
 
 void case2()
 {
@@ -46,6 +46,8 @@ void case2()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
 }

@@ -1,7 +1,7 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <cmath>
-#include <std.hpp>
+#include <iostream>
 using namespace std;
 
 #include <boost/utility/result_of.hpp>

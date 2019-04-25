@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vance/daydayup_ws/boost_guide/container/any.cpp
+iostream
+-
+boost/exception/all.hpp
+-
+boost/smart_ptr.hpp
+-
+boost/assign.hpp
+-
+boost/any.hpp
+-
+

@@ -1,7 +1,8 @@
 // Copyright (c) 2015
 // Author: Chrono Law
 #include <cstring>
-#include <std.hpp>
+#include <iostream>
+#include <assert.h>
 using namespace std;
 
 #include <boost/core/ignore_unused.hpp>
@@ -80,8 +81,9 @@ void case3()
 
 void case4()
 {
-    auto trunk = []
-    (string_ref str)->string_ref
+
+    auto trunk = []                 // Lambda表达式
+    (string_ref str)->string_ref    // 参数和返回类型都是string_ref
     {
         return str.substr(0, 5);
     };
@@ -94,9 +96,13 @@ void case4()
 
 int main()
 {
+    std::cout << "\n********** Case 1 **********\n";
     case1();
+    std::cout << "\n********** Case 2 **********\n";
     case2();
+    std::cout << "\n********** Case 3 **********\n";
     case3();
+    std::cout << "\n********** Case 4 **********\n";
     case4();
 }
 

@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/dynamic_bitset.dir/container/dynamic_bitset.cpp.o  -o dynamic_bitset -lboost_date_time -lboost_container -lboost_regex -lboost_system -lboost_date_time -lboost_container -lboost_regex -lboost_system 
