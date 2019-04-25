@@ -1,1 +1,0 @@
-/usr/bin/g++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/property_tree.dir/container/property_tree.cpp.o  -o property_tree -lboost_date_time -lboost_container -lboost_regex -lboost_system -lboost_date_time -lboost_container -lboost_regex -lboost_system 

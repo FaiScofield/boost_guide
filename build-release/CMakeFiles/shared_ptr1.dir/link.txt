@@ -1,1 +1,0 @@
-/usr/bin/g++   -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/shared_ptr1.dir/memory/shared_ptr1.cpp.o  -o shared_ptr1 -lboost_date_time -lboost_container -lboost_regex -lboost_system -lboost_date_time -lboost_container -lboost_regex -lboost_system 
